@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculo IMC</title>
+    <link rel="stylesheet" href="estilo.css">
+    <script src="funcionamento.js"></script>
+</head>
+<body>
+    <div id="principal">
+        <h1>Calculadora IMC</h1>
+        <div id="conteudo">
+            <input id = "peso" class="campo_digitacao" type="text" placeholder="Peso">&nbsp;
+            <input id = "altura" class="campo_digitacao" type="text" placeholder="Altura"><br><br>
+        </div>
+        <div id="botoes">
+            <button onclick="capturarDados();" id="botao" type="button">CALCULAR</button><br><br><br>
+        </div>
+        <div style="text-align: left;"id="opcoes-secundarias">
+            <button onclick="window.location.href='IMC-telaInicial.html'" type="button" id="botao">MENU</button>
+        </div>
+    </div>
+</body>
+</html>
